@@ -82,7 +82,7 @@ bool insertpriornode(lnote *p,elemtype e)
 	p->data=e;
 	return true;
 }
-//°´Î»²éÕÒ£¨´øÍ·½Úµã£© 
+//æŒ‰ä½æŸ¥æ‰¾ï¼ˆå¸¦å¤´èŠ‚ç‚¹ï¼‰ 
 lnote *getelem(lnote* &l,int i)
 {
 	if(i<0)
@@ -98,7 +98,7 @@ lnote *getelem(lnote* &l,int i)
 	}
 	return p;
 }
-//°´Öµ²éÕÒ
+//æŒ‰å€¼æŸ¥æ‰¾
 lnote *locatelem(lnote*& l,elemtype e)
 {
 	lnote *p=l->next;
@@ -108,7 +108,7 @@ lnote *locatelem(lnote*& l,elemtype e)
 	}
 	return p;
 }
-//Î²²å·¨½¨Á¢µ¥Á´±í
+//å°¾æ’æ³•å»ºç«‹å•é“¾è¡¨
 lnote* listtailinsert(lnote *&l)
 {
 	int x;
@@ -127,7 +127,7 @@ lnote* listtailinsert(lnote *&l)
 	r->next=NULL;
 	return l;
 } 
-//Í·²å·¨½¨Á¢µ¥Á´±í
+//å¤´æ’æ³•å»ºç«‹å•é“¾è¡¨
 lnote* headinsert(lnote * &l)
 {
 	cout<<111<<endl;
